@@ -1,5 +1,40 @@
 <html>
+    <head><title>Assignment 2 134</title></head>
     <body>
-        
-    </body>
+        <fieldset><legend>LAB#3</legend>
+        <br><h1>Tabindex</h1>
+        Email <input type="text"id="email" name="email" placeholder="Email" tabindex="1">
+        <br>
+        <br>
+        Fullname <input type="text" id="fullname" name="fullname" tabindex="2">
+        <br>
+        <br>
+        <h1>Spinner</h1>
+        <label for="MySpinner">choose between 10 and 50</label>
+        <br>
+       <input type="number" min="10" max="50" name="spinner" id="MySpinner">
+        <br>
+        <br>
+        <h1>hidden</h1>
+        <input type="radio" name="courses" id="course2" value="CPAN133">
+        <label for="course2">CPAN133</label>
+        <input type="hidden" value="20" name="hiddenelement" id="myhiddenelement">
+        <br>
+        <br>
+        <h1>Calendar</h1>
+        <div>        
+        <label for="calendar1">Calendar</label>
+        <input type="date" name="MyCalendar" id="calendar1">
+        </div>
+        </fieldset>
+        <br>
+        <br>
+        <label for="color">Favorite Color:</label>
+        <input type="text" name="color" id="color"list="colors" >
+        <datalist id="colors"><option value="red" label="Red">
+        <option value="green" label="Green"><option value="blue" label="Blue">
+        <option value="yellow" label=“Yellow">
+        <option value="pink" label="Pink">
+        <option value="black" label="Black"></datalist>
+        </body>
 </html>
